@@ -74,6 +74,7 @@ This project is [MIT licensed](LICENSE).
 - https://fonts.google.com/specimen/Roboto
 - https://github.com/alvarotrigo/fullpage.js
 - https://github.com/serranoarevalo/momonton
+- https://stackoverflow.com/questions/18621612/find-and-remove-element-from-array
 
 ### Fetch Request
 
@@ -102,3 +103,4 @@ This project is [MIT licensed](LICENSE).
 - https://stackoverflow.com/questions/5195303/set-css-property-in-javascript
 - https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch
 - https://www.educba.com/css-text-outline/
+- https://www.w3docs.com/snippets/css/how-to-set-space-between-flexbox-items.html

@@ -52,7 +52,7 @@ body {
 body,
 input,
 button {
-  font: 2rem 'Roboto', sans-serif;
+  font: 1rem 'Roboto', sans-serif;
 }
 
 a {
@@ -87,16 +87,18 @@ body {
 }
 
 .center_anchor {
-  height: 25vh;
+  height: 15vh;
 }
 
-.floating_input {
+input.floating {
   background: none;
 
   border: none;
   border-bottom: 1px #ffffff solid;
 
   color: #ffffff;
+
+  font-size: 2rem;
 }
 
 .clock_greeting {
@@ -106,16 +108,33 @@ body {
 }
 
 .clock {
-  font-size: 8rem;
+  font-size: 10rem;
+}
+
+#greeting {
+  font-size: 5rem;
 }
 
 .todo_container {
   margin-top: 1rem;
 }
 
-.todo_form {
+form.todo {
   display: flex;
   justify-content: space-around;
+}
+
+li.task {
+  margin-top: 0.5rem;
+
+  font-size: 1.5rem;
+}
+
+button.delete_task {
+  background: none;
+  border: none;
+
+  margin-right: 0.5rem;
 }
 
 .quote {
