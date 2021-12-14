@@ -15,7 +15,6 @@ const setBackground = imageURL => {
   const oldBackground = style.getPropertyValue('background-image')
   const newBackground = `url(${imageURL}), ${oldBackground}`
 
-  console.log(oldBackground, newBackground)
   document.body.style.setProperty('background-image', newBackground)
 }
 

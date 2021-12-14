@@ -11,7 +11,7 @@ const fetchRandomQuoute = async () => {
 }
 
 const setQuote = quote => {
-  contentSpan.innerText = quote.content
+  contentSpan.innerText = `"${quote.content}"`
   authorSpan.innerText = quote.author
 }
 

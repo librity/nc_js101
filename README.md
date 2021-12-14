@@ -72,7 +72,7 @@ This project is [MIT licensed](LICENSE).
 
 - https://codeforgeek.com/render-html-file-expressjs/
 - https://fonts.google.com/specimen/Roboto
--
+- https://github.com/alvarotrigo/fullpage.js
 
 ### Fetch Request
 
@@ -100,3 +100,4 @@ This project is [MIT licensed](LICENSE).
 - https://stackoverflow.com/questions/4847850/is-it-possible-to-define-constants-in-css
 - https://stackoverflow.com/questions/5195303/set-css-property-in-javascript
 - https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch
+- https://www.educba.com/css-text-outline/

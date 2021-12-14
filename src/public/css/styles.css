@@ -39,7 +39,7 @@ body {
 body,
 input,
 button {
-  font: 14px 'Roboto', sans-serif;
+  font: 2rem 'Roboto', sans-serif;
 }
 
 a {
@@ -54,6 +54,37 @@ button {
   cursor: pointer;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  color: white;
+
+  /* -webkit-text-stroke-width: 2px; */
+  /* -webkit-text-stroke-color: gray; */
+}
+
 .hidden {
   display: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clock_greeting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
