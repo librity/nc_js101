@@ -4,6 +4,7 @@ const USERNAME_KEY = 'username'
 const loginForm = document.getElementById('login_form')
 const loginInput = loginForm.querySelector('input')
 
+const elementsDiv = document.getElementById('elements')
 const greetingH1 = document.getElementById('greeting')
 
 const savedUsername = localStorage.getItem(USERNAME_KEY)
@@ -14,23 +15,23 @@ const handleLogin = event => {
   const username = loginInput.value
   localStorage.setItem(USERNAME_KEY, username)
 
-  setGreeting(username)
+  logIn(username)
 
   loginInput.value = ''
   loginForm.classList.add(HIDDEN_CLASSNAME)
 }
 
-const setGreeting = username => {
+const logIn = username => {
   document.title = `${document.title} - ${username}`
 
   const greeting = `Welcome ${username}!`
   greetingH1.innerText = greeting
-  greetingH1.classList.remove(HIDDEN_CLASSNAME)
+  elementsDiv.classList.remove(HIDDEN_CLASSNAME)
 }
 
 const init = () => {
   if (savedUsername) {
-    setGreeting(savedUsername)
+    logIn(savedUsername)
     return
   }
 

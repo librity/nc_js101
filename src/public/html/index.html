@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="/public/css/styles.css" />
@@ -23,12 +30,14 @@
       <button>Login</button>
     </form>
 
-    <h2 id="clock">00:00:00</h2>
-    <h1 class="hidden" id="greeting"></h1>
+    <div class="hidden" id="elements">
+      <h2 id="clock">00:00:00</h2>
+      <h1 id="greeting"></h1>
 
-    <div id="quote">
-      <span></span>
-      <span></span>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
     </div>
 
     <script src="/public/js/api.js"></script>

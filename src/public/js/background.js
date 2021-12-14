@@ -10,10 +10,13 @@ const fetchRandomBackground = async () => {
 }
 
 const setBackground = imageURL => {
-  const backgroundImg = document.createElement('img')
-  backgroundImg.src = imageURL
+  const element = document.body
+  const style = window.getComputedStyle(element)
+  const oldBackground = style.getPropertyValue('background-image')
+  const newBackground = `url(${imageURL}), ${oldBackground}`
 
-  document.body.appendChild(backgroundImg)
+  console.log(oldBackground, newBackground)
+  document.body.style.setProperty('background-image', newBackground)
 }
 
 fetchRandomBackground().then(setBackground).catch(console.error)

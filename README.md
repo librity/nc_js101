@@ -71,6 +71,8 @@ This project is [MIT licensed](LICENSE).
 ## Resources <a name = "resources"></a>
 
 - https://codeforgeek.com/render-html-file-expressjs/
+- https://fonts.google.com/specimen/Roboto
+-
 
 ### Fetch Request
 
@@ -87,3 +89,14 @@ This project is [MIT licensed](LICENSE).
 
 - https://awik.io/generate-random-images-unsplash-without-using-api/
 - https://unsplash.com/developers
+
+### CSS
+
+- https://www.w3schools.com/cssref/func_linear-gradient.asp
+- https://www.w3schools.com/cssref/pr_background-image.asp
+- https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+- https://stackoverflow.com/questions/6338217/get-a-css-value-with-javascript
+- https://cssgradient.io/gradient-backgrounds/
+- https://stackoverflow.com/questions/4847850/is-it-possible-to-define-constants-in-css
+- https://stackoverflow.com/questions/5195303/set-css-property-in-javascript
+- https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch

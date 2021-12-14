@@ -1,3 +1,59 @@
+:root {
+  --zen-blue: #8fb5e5;
+  --zen-green: #bbcfe6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-image: radial-gradient(
+    circle,
+    var(--zen-green) 35%,
+    var(--zen-blue) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+body,
+input,
+button {
+  font: 14px 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 .hidden {
   display: none;
 }
