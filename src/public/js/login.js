@@ -5,6 +5,7 @@ const handleLogin = event => {
   event.preventDefault()
 
   setUsername(loginInput.value)
+
   loginInput.value = ''
   loginForm.classList.add(HIDDEN_CLASSNAME)
 

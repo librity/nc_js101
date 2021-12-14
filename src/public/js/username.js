@@ -1,14 +1,19 @@
 const USERNAME_KEY = 'username'
 
+let username
+
 const getUsername = () => {
+  if (username) return username
+
   const savedUsername = localStorage.getItem(USERNAME_KEY)
   if (savedUsername) return savedUsername
 
   return undefined
 }
 
-const setUsername = username => {
-  localStorage.setItem(USERNAME_KEY, username)
+const setUsername = newUsername => {
+  username = newUsername
+  localStorage.setItem(USERNAME_KEY, newUsername)
 }
 
 const usernameIsSaved = () => {
@@ -16,3 +21,10 @@ const usernameIsSaved = () => {
 
   false
 }
+
+const usernameInit = () => {
+  const savedUsername = localStorage.getItem(USERNAME_KEY)
+  if (savedUsername) username = savedUsername
+}
+
+usernameInit()

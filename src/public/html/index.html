@@ -22,37 +22,39 @@
     <section class="left"></section>
 
     <section class="center">
+      <div class="center_anchor"></div>
+
       <div class="clock_greeting">
-        <h2 id="clock">00:00:00</h2>
+        <h2 class="clock" id="clock">00:00:00</h2>
 
         <form class="hidden" id="login_form">
           <input
+            class="floating_input"
             placeholder="What's your name?"
             type="text"
             required
             maxlength="15"
           />
-
-          <button>Login</button>
         </form>
         <h1 class="hidden" id="greeting"></h1>
       </div>
 
-      <div class="quote" id="quote">
-        <span></span>
-        <span></span>
-      </div>
-
-      <div id="todo_container">
-        <form id="todo_form">
+      <div class="todo_container" id="todo_container">
+        <form class="todo_form" id="todo_form">
           <input
+            class="floating_input"
             type="text"
-            placeholder="Write a task and press Enter"
+            placeholder="Type a task here"
             required
           />
         </form>
 
         <ul id="todo_list"></ul>
+      </div>
+
+      <div class="quote" id="quote">
+        <span></span>
+        <span></span>
       </div>
     </section>
 

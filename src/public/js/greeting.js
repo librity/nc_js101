@@ -1,4 +1,9 @@
 const updateGreeting = hours => {
+  if (!getUsername()) {
+    greetingH1.innerText = ''
+    return
+  }
+
   if (hours >= 6 && hours < 12) {
     const greeting = `Good morning, ${getUsername()}.`
     greetingH1.innerText = greeting

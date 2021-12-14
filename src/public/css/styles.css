@@ -73,7 +73,7 @@ body {
 }
 
 body {
-  color: white;
+  color: #ffffff;
 }
 
 .hidden {
@@ -82,8 +82,21 @@ body {
 
 .center {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
+}
+
+.center_anchor {
+  height: 25vh;
+}
+
+.floating_input {
+  background: none;
+
+  border: none;
+  border-bottom: 1px #ffffff solid;
+
+  color: #ffffff;
 }
 
 .clock_greeting {
@@ -92,9 +105,25 @@ body {
   flex-direction: column;
 }
 
-.quote {
+.clock {
+  font-size: 8rem;
+}
+
+.todo_container {
   margin-top: 1rem;
+}
+
+.todo_form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.quote {
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  margin-top: 1rem;
+
+  max-width: 50vw;
 }
