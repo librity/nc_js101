@@ -18,4 +18,4 @@ const setBackground = imageURL => {
   document.body.style.setProperty('background-image', newBackground)
 }
 
-fetchRandomBackground().then(setBackground).catch(console.error)
+// fetchRandomBackground().then(setBackground).catch(console.error)

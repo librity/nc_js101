@@ -19,7 +19,7 @@ A Momentum clone with vanilla Javascript.
 
 - [Production App](https://nomentum.herokuapp.com)
 - [Take the course too!](https://nomadcoders.co/javascript-for-beginners)
-- [Certificate of Completion]()
+- [Certificate of Completion](https://nomadcoders.co/certs/5be235d7-9445-42b8-9de5-be8da41cc084)
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -73,6 +73,7 @@ This project is [MIT licensed](LICENSE).
 - https://codeforgeek.com/render-html-file-expressjs/
 - https://fonts.google.com/specimen/Roboto
 - https://github.com/alvarotrigo/fullpage.js
+- https://github.com/serranoarevalo/momonton
 
 ### Fetch Request
 

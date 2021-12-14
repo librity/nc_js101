@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 :root {
   --zen-blue: #8fb5e5;
   --zen-green: #bbcfe6;
@@ -14,6 +23,10 @@
   outline: 0;
 }
 
+html {
+  background: #333333;
+}
+
 html,
 body,
 #root {
@@ -26,11 +39,11 @@ body {
   width: 100vw;
   height: 100vh;
 
-  background-image: radial-gradient(
-    circle,
-    var(--zen-green) 35%,
-    var(--zen-blue) 100%
-  );
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 1s;
+
+  background-image: url('https://source.unsplash.com/random/1920x1080/?landscape');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
