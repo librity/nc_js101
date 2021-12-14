@@ -53,6 +53,14 @@ body,
 input,
 button {
   font: 1rem 'Roboto', sans-serif;
+
+  /* -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #cacaca; */
+}
+
+::placeholder {
+  color: #cacaca;
+  opacity: 1;
 }
 
 a {
@@ -69,7 +77,8 @@ button {
 
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 body {
@@ -80,10 +89,18 @@ body {
   display: none;
 }
 
+.left {
+  flex: 1;
+}
+
 .center {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+}
+
+.right {
+  flex: 1;
 }
 
 .center_anchor {
@@ -145,4 +162,26 @@ button.delete_task {
   margin-top: 1rem;
 
   max-width: 50vw;
+}
+
+.weather {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-right: 2rem;
+  margin-top: 1rem;
+
+  font-size: 1.5rem;
+
+  height: 10vh;
+}
+
+.weather_details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-size: 1.5rem;
 }

@@ -70,11 +70,15 @@ This project is [MIT licensed](LICENSE).
 
 ## Resources <a name = "resources"></a>
 
-- https://codeforgeek.com/render-html-file-expressjs/
 - https://fonts.google.com/specimen/Roboto
 - https://github.com/alvarotrigo/fullpage.js
 - https://github.com/serranoarevalo/momonton
+
+### Javascript
+
+- https://codeforgeek.com/render-html-file-expressjs/
 - https://stackoverflow.com/questions/18621612/find-and-remove-element-from-array
+- https://www.delftstack.com/howto/javascript/javascript-float-to-int/
 
 ### Fetch Request
 
@@ -91,6 +95,11 @@ This project is [MIT licensed](LICENSE).
 
 - https://awik.io/generate-random-images-unsplash-without-using-api/
 - https://unsplash.com/developers
+
+### Weather API
+
+- https://openweathermap.org/current
+- https://openweathermap.org/weather-conditions
 
 ### CSS
 
