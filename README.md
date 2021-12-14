@@ -71,3 +71,14 @@ This project is [MIT licensed](LICENSE).
 ## Resources <a name = "resources"></a>
 
 - https://codeforgeek.com/render-html-file-expressjs/
+
+### Fetch Request
+
+- https://stackoverflow.com/questions/247483/http-get-request-in-javascript
+- https://gist.github.com/msmfsd/fca50ab095b795eb39739e8c4357a808
+- https://fetch.spec.whatwg.org/
+
+### Quotes API
+
+- https://github.com/lukePeavey/quotable
+- https://api.quotable.io/random
