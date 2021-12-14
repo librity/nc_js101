@@ -14,6 +14,8 @@ const updateTime = () => {
   const nowTime = `${hours}:${minutes}:${seconds}`
 
   clockH2.innerText = nowTime
+
+  updateGreeting(now.getHours())
 }
 
 updateTime()
