@@ -1,7 +1,7 @@
 # [Nomad Coders - Javascript for Beginners](https://nomadcoders.co/javascript-for-beginners)
 
 <p align="center">
-  <img src="">
+  <img src=".github/demo.png">
 </p>
 
 ## Table of Contents
