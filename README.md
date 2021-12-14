@@ -82,3 +82,8 @@ This project is [MIT licensed](LICENSE).
 
 - https://github.com/lukePeavey/quotable
 - https://api.quotable.io/random
+
+### Backgrounds API
+
+- https://awik.io/generate-random-images-unsplash-without-using-api/
+- https://unsplash.com/developers

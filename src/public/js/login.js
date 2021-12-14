@@ -21,7 +21,10 @@ const handleLogin = event => {
 }
 
 const setGreeting = username => {
-  greetingH1.innerText = `Hello ${username}!`
+  document.title = `${document.title} - ${username}`
+
+  const greeting = `Welcome ${username}!`
+  greetingH1.innerText = greeting
   greetingH1.classList.remove(HIDDEN_CLASSNAME)
 }
 
