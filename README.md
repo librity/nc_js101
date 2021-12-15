@@ -1,4 +1,4 @@
-# [Nomad Coders - Javascript for Beginners](https://nomadcoders.co/javascript-for-beginners)
+# [Nomad Coders - Nomentum](https://nomadcoders.co/javascript-for-beginners)
 
 <p align="center">
   <img src=".github/demo.png">
