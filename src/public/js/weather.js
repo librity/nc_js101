@@ -1,10 +1,12 @@
-const TWENTY_MINUTES = 20 * 60 * 1000
+const TEN_MINUTES = 10 * 60 * 1000
 
 const WEATHER_API_KEY = '64b4a1917a1162ec2a04717a12f24a9a'
 const WEATHER_BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
 const WEATHER_ICON_BASE_URL = 'https://openweathermap.org/img/wn'
 
-const iconImg = document.querySelector('#weather img')
+const weatherA = document.getElementById('weather_container')
+
+const iconImg = document.getElementById('weather_icon')
 
 const tempSpan = document.getElementById('weather_temp')
 const citySpan = document.getElementById('weather_city')
@@ -15,9 +17,20 @@ const onGeoError = () => {
   alert('Please allow location access for weather forecast.')
 }
 
+const buildDarkskyURL = position => {
+  const { latitude: lat, longitude: lon } = position.coords
+
+  return `https://darksky.net/forecast/${lat},${lon}/si24/en`
+}
+
+const setDarkskyLink = position => {
+  const url = buildDarkskyURL(position)
+
+  weatherA.setAttribute('href', url)
+}
+
 const buildWeatherURL = position => {
-  const lat = position.coords.latitude
-  const lon = position.coords.longitude
+  const { latitude: lat, longitude: lon } = position.coords
 
   return `${WEATHER_BASE_URL}?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`
 }
@@ -50,8 +63,10 @@ const getForecast = () => {
 const onGeoOK = position => {
   weatherURL = buildWeatherURL(position)
 
+  setDarkskyLink(position)
+
   getForecast()
-  setInterval(getForecast, TWENTY_MINUTES)
+  setInterval(getForecast, TEN_MINUTES)
 }
 
 const weatherInit = () => {

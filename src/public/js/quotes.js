@@ -1,7 +1,6 @@
 const RANDOM_QUOTE_URL = 'https://api.quotable.io/random'
 
-const contentSpan = document.querySelector('#quote span:first-child')
-const authorSpan = document.querySelector('#quote span:last-child')
+const quoteDiv = document.getElementById('quote_content')
 
 const fetchRandomQuoute = async () => {
   const { content, author } = await fetchJSON(RANDOM_QUOTE_URL)
@@ -11,8 +10,7 @@ const fetchRandomQuoute = async () => {
 }
 
 const setQuote = quote => {
-  contentSpan.innerText = `"${quote.content}"`
-  authorSpan.innerText = quote.author
+  quoteDiv.innerText = `"${quote.content}"\n${quote.author}`
 }
 
 fetchRandomQuoute().then(setQuote).catch(console.error)

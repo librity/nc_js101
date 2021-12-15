@@ -54,17 +54,20 @@ input,
 button {
   font: 1rem 'Roboto', sans-serif;
 
-  /* -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: #cacaca; */
+  /*
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #cacaca;
+  */
 }
 
 ::placeholder {
-  color: #cacaca;
+  color: #dddddd;
   opacity: 1;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -90,12 +93,15 @@ body {
 }
 
 input.floating {
-  background: none;
+  padding: 0.5rem;
+  padding-left: 1rem;
+
+  background: #e6e6e626;
 
   border: none;
-  border-bottom: 1px #ffffff solid;
-
-  color: #ffffff;
+  border-bottom: 2px #ffffff33 solid;
+  border-radius: 1rem;
 
   font-size: 2rem;
+  color: #ffffff;
 }

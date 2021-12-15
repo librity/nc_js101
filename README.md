@@ -115,3 +115,9 @@ This project is [MIT licensed](LICENSE).
 - https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch
 - https://www.educba.com/css-text-outline/
 - https://www.w3docs.com/snippets/css/how-to-set-space-between-flexbox-items.html
+- https://www.w3schools.com/css/css_text_align.asp
+- https://www.w3schools.com/CSSref/css3_pr_opacity.asp
+- https://stackoverflow.com/questions/16989585/css-3-slide-in-from-left-transition
+- https://www.w3schools.com/cssref/sel_focus.asp
+- https://marksheet.io/css-priority.html
+- https://www.w3schools.com/csS/css_overflow.asp
