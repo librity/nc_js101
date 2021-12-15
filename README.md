@@ -79,6 +79,8 @@ This project is [MIT licensed](LICENSE).
 - https://codeforgeek.com/render-html-file-expressjs/
 - https://stackoverflow.com/questions/18621612/find-and-remove-element-from-array
 - https://www.delftstack.com/howto/javascript/javascript-float-to-int/
+- https://stackoverflow.com/questions/2696692/setinterval-vs-settimeout
+- https://stackoverflow.com/questions/55362152/how-to-open-a-new-tab-in-javascript
 
 ### Fetch Request
 

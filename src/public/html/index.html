@@ -14,12 +14,31 @@
 
     <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="/public/css/styles.css" />
+    <link rel="stylesheet" href="/public/css/global.css" />
+    <link rel="stylesheet" href="/public/css/left.css" />
+    <link rel="stylesheet" href="/public/css/center.css" />
+    <link rel="stylesheet" href="/public/css/right.css" />
 
     <title>Nomentum</title>
   </head>
+
   <body>
-    <section class="left"></section>
+    <section class="left">
+      <form class="search" id="search_form">
+        <img
+          class="search"
+          src="/public/images/search_icon.png"
+          alt="Search the internet"
+        />
+
+        <input
+          class="floating"
+          placeholder="Search the internet"
+          type="text"
+          required
+        />
+      </form>
+    </section>
 
     <section class="center">
       <div class="center_anchor"></div>
@@ -79,5 +98,6 @@
     <script src="/public/js/quotes.js"></script>
     <script src="/public/js/todo.js"></script>
     <script src="/public/js/weather.js"></script>
+    <script src="/public/js/search.js"></script>
   </body>
 </html>

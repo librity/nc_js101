@@ -1,0 +1,55 @@
+.center {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.center_anchor {
+  height: 15vh;
+}
+
+.clock_greeting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock {
+  font-size: 10rem;
+}
+
+#greeting {
+  font-size: 5rem;
+}
+
+.todo_container {
+  margin-top: 1rem;
+}
+
+form.todo {
+  display: flex;
+  justify-content: space-around;
+}
+
+li.task {
+  margin-top: 0.5rem;
+
+  font-size: 1.5rem;
+}
+
+button.delete_task {
+  background: none;
+  border: none;
+
+  margin-right: 0.5rem;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 1rem;
+
+  max-width: 50vw;
+}

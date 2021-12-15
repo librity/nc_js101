@@ -1,0 +1,22 @@
+.left {
+  flex: 1;
+}
+
+form.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+img.search {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+form.search input {
+  margin-left: 1rem;
+}
