@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [About](#about)
+- [Features](#features)
 - [Getting Started](#getting_started)
 - [License](#license)
 - [Packages](#packages)
@@ -20,6 +21,48 @@ A Momentum clone with vanilla Javascript.
 - Production App: https://nomentum.herokuapp.com
 - [Take the course too!](https://nomadcoders.co/javascript-for-beginners)
 - [Certificate of Completion](https://nomadcoders.co/certs/5be235d7-9445-42b8-9de5-be8da41cc084)
+
+I personally use this
+and will be adding more useful features in the near future.
+I'm committed to online privacy and anonymity, and this app will:
+- never save any personal data
+- never use or save cookies
+- never use any resources that push trackers (like google fonts)
+
+## Features <a name = "features"></a>
+
+- [x] NO TRACKING EVER!!!
+  - [x] Serve roboto font
+- [x] Clock
+- [x] Greeting
+  - [x] Updates with time 
+- [x] Landscape background
+  - [x] Random landscape from unsplash
+  - [ ] Change landscape every x minutes with transition
+- [x] Tasks
+  - [x] Add task
+  - [x] Save tasks to local storage
+  - [x] Delete task
+  - [ ] Edit tasks
+  - [ ] Move task
+- [x] Weather
+  - [x] Current weather with icon
+  - [ ] Weather forecast on hover
+- [x] Search bar
+  - [x] DuckDuckGo
+  - [ ] Select search site/engine
+- [ ] Quick links toolbar
+  - [ ] Add link
+  - [ ] Save links to local storage
+  - [ ] Edit link
+  - [ ] Delete link
+- [ ] Crypto toolbar
+  - [ ] Add coins of interest
+  - [ ] Show price and change
+  - [ ] Remove coins
+- [ ] Manual session backups
+  - [ ] Export local storage configs to file
+  - [ ] Load local storage configs from file
 
 ## Getting Started <a name = "getting_started"></a>
 
