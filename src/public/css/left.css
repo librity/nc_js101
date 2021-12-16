@@ -8,7 +8,7 @@
   align-items: center;
 
   margin-top: 1rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .search_form {
@@ -22,6 +22,8 @@
 .search_icon {
   width: 2rem;
   height: 2rem;
+
+  margin-bottom: 0.25rem;
 }
 
 .search_input {
