@@ -22,12 +22,10 @@ A Momentum clone with vanilla Javascript.
 - [Take the course too!](https://nomadcoders.co/javascript-for-beginners)
 - [Certificate of Completion](https://nomadcoders.co/certs/5be235d7-9445-42b8-9de5-be8da41cc084)
 
-I personally use this
-and will be adding more useful features in the near future.
-I'm committed to online privacy and anonymity, and this app will:
-- never save any personal data
-- never use or save cookies
-- never use any resources that push trackers (like google fonts)
+I have since rebuilt this app with Next.JS and added more features:
+
+- https://github.com/librity/impetus
+- https://impetus.vercel.app/
 
 ## Features <a name = "features"></a>
 
