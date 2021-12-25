@@ -38,31 +38,14 @@ I'm committed to online privacy and anonymity, and this app will:
   - [x] Updates with time 
 - [x] Landscape background
   - [x] Random landscape from unsplash
-  - [ ] Change landscape every x minutes with transition
 - [x] Tasks
   - [x] Add task
   - [x] Save tasks to local storage
   - [x] Delete task
-  - [ ] Edit tasks
-  - [ ] Move task
 - [x] Weather
   - [x] Current weather with icon
-  - [ ] Weather forecast on hover
 - [x] Search bar
   - [x] DuckDuckGo
-  - [ ] Select search site/engine
-- [ ] Quick links toolbar
-  - [ ] Add link
-  - [ ] Save links to local storage
-  - [ ] Edit link
-  - [ ] Delete link
-- [ ] Crypto toolbar
-  - [ ] Add coins of interest
-  - [ ] Show price and change
-  - [ ] Remove coins
-- [ ] Manual session backups
-  - [ ] Export local storage configs to file
-  - [ ] Load local storage configs from file
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -76,7 +59,7 @@ I'm committed to online privacy and anonymity, and this app will:
 
 ```bash
 $ git clone https://github.com/librity/nc_js101.git
-$ cd nc_zoom
+$ cd nc_js101
 $ npm install
 ```
 
